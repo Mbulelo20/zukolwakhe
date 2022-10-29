@@ -1,4 +1,7 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import { Fragment } from 'react';
 import kids from '../Images/kids.jpg'
@@ -19,48 +22,107 @@ const MissionStatement = () => {
             a occaeca, sunt in culpa mollit anim id est laborum."
             </h4>
         </div>
-        <Carousel style={{maxWidth: '69%', margin: 'auto', marginTop:'3em', marginBottom:"5em", textShadow: '2px 2px black'}} >
-            <Carousel.Item style={{maxHeight:'300px'}}>
-                <img
-                className="imgobj1"
-                src={kids}
-                alt="First slide"
-                style={{maxWidth: '100%', minHeight:'100%'}} 
+        <Container>
+            <Row>
+                <Col sm={3}>
+                    <Carousel style={{margin: 'auto', marginTop:'4em', marginBottom:"5em", textShadow: '2px 2px black', height:"240px"}} >
+                        <Carousel.Item >
+                            <img className="imgobj1" src={kids} lt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="d-block w-100" src={youth} alt="Second slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'100%', objectFit:'cover', objectPosition: '100% 0', }}/>
 
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{maxHeight:'300px'}}>
-                <img
-                className="d-block w-100"
-                src={youth}
-                alt="Second slide"
-                style={{ objectFit:'cover', objectPosition: '100% 0', }}
-                />
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{maxHeight:'300px'}}>
+                            <img className="d-block w-100" src={zklworship} alt="Third slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }}/>
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
 
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{maxHeight:'300px'}}>
-                <img
-                className="d-block w-100"
-                src={zklworship}
-                alt="Third slide"
-                />
+                <Col sm={6}>
+                    <Carousel style={{maxWidth: '100%', margin: 'auto', marginTop:'3em', marginBottom:"5em", textShadow: '2px 2px black'}} >
+                        <Carousel.Item style={{maxHeight:'300px'}}>
+                            <img className="imgobj1" src={kids} alt="First slide" style={{maxWidth: '100%', minHeight:'100%', objectFit:'cover', objectPosition: '100% 0' }}/>
+                            {/* , objectFit:'cover', objectPosition: '100% 0'}} */}
+                            <Carousel.Caption>
+                                <h3>First slide label</h3>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{maxHeight:'300px'}}>
+                            <img
+                            className="d-block w-100"
+                            src={youth}
+                            alt="Second slide"
+                            style={{maxWidth: '100%', minHeight:'100%', objectFit:'cover', objectPosition: '100% 0', }}
+                            />
 
-                <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{maxHeight:'300px'}}>
+                            <img
+                            className="d-block w-100"
+                            src={zklworship}
+                            alt="Third slide"
+                            />
+
+                            <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                            <p>
+                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+                <Col sm={3}>
+                <Carousel style={{margin: 'auto', marginTop:'4em', marginBottom:"5em", textShadow: '2px 2px black', height:"240px"}} >
+                        <Carousel.Item >
+                            <img className="imgobj1" src={kids} lt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="d-block w-100" src={youth} alt="Second slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'100%', objectFit:'cover', objectPosition: '100% 0', }}/>
+
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{maxHeight:'300px'}}>
+                            <img className="d-block w-100" src={zklworship} alt="Third slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }}/>
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+            </Row>
+        </Container>
+        
         
     </Fragment>
   )
