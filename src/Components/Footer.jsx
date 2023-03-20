@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
             <Row>
                 <Col sm={4}>
-                <h1 style={{fontSize: '3vw', color: 'white'}}>
+                <h1 style={{fontSize: '1vw', color: 'white',borderStyle:'solid', borderRadius:'50px', borderColor:'red', width:'30%', height:'90%'}}>
                     Zukolwakhe <br/> Church
                 </h1>
                 </Col>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <p>zukolwakhe@examplemail.com <br/>+27 21 457 1322</p>
                 </Col>
                 <Col  style={{color:'white'}}>
-                    <div style={{borderRadius:'50%', borderColor:'red'}}>
+                    <div style={{borderRadius:'50%'}}>
                         <h4 >Find Us</h4>
                     <p>23 235 Anthon Fransch St <br/> Mandela Park <br/> Khayelitsha 7784</p>
                     </div>
