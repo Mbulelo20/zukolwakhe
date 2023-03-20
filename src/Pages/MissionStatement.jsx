@@ -2,7 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import corner from '../Images/zkl.png'
 import africa from '../Images/africa.png'
 import WC from '../Images/WC.png'
 import ZA from '../Images/ZA.png'
@@ -31,13 +30,13 @@ const MissionStatement = () => {
         <Container>
           <Row style={{textAlign:'center', marginBottom:'5em'}}>
             <Col sm={4} className="container">
-                <img src={africa} style={{maxWidth: '70%',borderStyle:"groove", borderColor:"#554348"}}/>
+                <img src={africa} alt="First slide" style={{maxWidth: '70%',borderStyle:"groove", borderColor:"#554348"}}/>
             </Col>
             <Col sm={4} className="container">
-                <img src={ZA}  style={{maxWidth: '70%',borderStyle:"groove", borderColor:"#554348"}}/>
+                <img src={ZA} alt="First slide" style={{maxWidth: '70%',borderStyle:"groove", borderColor:"#554348"}}/>
             </Col>
             <Col sm={4} className="container">
-                <img src={WC}  style={{maxWidth: '65%',borderStyle:"groove", borderColor:"#554348"}}/>
+                <img src={WC} alt="First slide" style={{maxWidth: '65%',borderStyle:"groove", borderColor:"#554348"}}/>
             </Col>
           </Row>
           <Row>

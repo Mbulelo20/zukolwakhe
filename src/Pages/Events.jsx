@@ -7,7 +7,6 @@ import { Fragment } from 'react';
 import kids from '../Images/kids.jpg'
 import zklworship from '../Images/worship2.jpg'
 import youth from '../Images/youth1.jpg'
-import lead from '../Images/lead.jpg'
 const MissionStatement = () => {
   return (
     <Fragment> 
@@ -27,7 +26,7 @@ const MissionStatement = () => {
                 <Col sm={3}>
                     <Carousel style={{margin: 'auto', marginTop:'4em', marginBottom:"5em", textShadow: '2px 2px black', height:"240px"}} >
                         <Carousel.Item >
-                            <img className="imgobj1" src={kids} lt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
+                            <img className="imgobj1" src={kids} alt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -95,7 +94,7 @@ const MissionStatement = () => {
                 <Col sm={3}>
                 <Carousel style={{margin: 'auto', marginTop:'4em', marginBottom:"5em", textShadow: '2px 2px black', height:"240px"}} >
                         <Carousel.Item >
-                            <img className="imgobj1" src={kids} lt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
+                            <img className="imgobj1" src={kids} alt="First slide" style={{maxWidth: '100%', maxHeight:'260px', minHeight:'260px', objectFit:'cover', objectPosition: '100% 0' }} />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

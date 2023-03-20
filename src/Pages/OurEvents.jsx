@@ -1,18 +1,10 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import service from '../Images/zkservice.jpg'
 import khanyisa2 from '../Images/khanyisa2.jpg'
 import khanyisa1 from '../Images/khanyisa1.jpg'
 import khanyisa3 from '../Images/Khanyisa3.jpeg'
-
-import kids from '../Images/kids.jpg'
-import zklworship from '../Images/worship2.jpg'
-import youth from '../Images/youth1.jpg'
-import lead from '../Images/lead.jpg'
-import  f1 from '../Images/fellowship1.jpg'
-import  f2 from '../Images/fellowship2.jpg'
 import  cel2 from '../Images/celebration2.jpg'
 import  cel6 from '../Images/celebratoin6.jpg'
 import  bye1 from '../Images/bye1.jpg'
@@ -20,12 +12,7 @@ import  bye2 from '../Images/bye2.jpg'
 import  bye3 from '../Images/bye3.jpg'
 import  bye5 from '../Images/bye5.jpg'
 import  bye6 from '../Images/bye6.jpg'
-
-import test from '../Images/kids.mp4'
 import celebration1 from '../video/celebration.mp4'
-
-import  f3 from '../Images/fellowship3.jpg'
-import  f4 from '../Images/fellowship4.jpg'
 
 
 const OurEvents = () => {
@@ -67,11 +54,11 @@ const OurEvents = () => {
                     
                 </Col>
                 <Col sm={4}>
-            <img src={cel6} style={{maxWidth:"100%",minWidth:"100%",maxHeight:"300px",minHeight:"300px",objectFit:'cover', marginRight:'3em'}}/>
+            <img src={cel6} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",maxHeight:"300px",minHeight:"300px",objectFit:'cover', marginRight:'3em'}}/>
             </Col>
             
             <Col sm={4}>
-            <img src={cel2} style={{maxWidth:"100%",minHeight:"230px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+            <img src={cel2} alt="First slide" style={{maxWidth:"100%",minHeight:"230px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
             </Col>
           </Row>
           <Row style={{marginTop:"2em"}}>
@@ -82,7 +69,7 @@ const OurEvents = () => {
                 </video>            </Col>
             
             <Col sm={6}>
-            <img src={service} style={{maxWidth:"100%",minHeight:"330px",objectFit:'cover', marginRight:'3em'}}/>
+            <img src={service} alt="First slide" style={{maxWidth:"100%",minHeight:"330px",objectFit:'cover', marginRight:'3em'}}/>
             </Col>            
           </Row>
     </div>
@@ -106,18 +93,18 @@ const OurEvents = () => {
                     
                 </Col>
                 <Col sm={6}>
-                    <img src={service} style={{maxWidth:"100%",minHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={service} alt="First slide" style={{maxWidth:"100%",minHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
             </Row>
             <Row style={{marginTop:"2em",paddingBottom:'5em'}}>
                 <Col sm={4}>
-                    <img src={khanyisa3} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
+                    <img src={khanyisa3} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
                 </Col>
             <Col sm={4}>
-                    <img src={khanyisa2} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={khanyisa2} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
                 <Col sm={4}>
-                    <img src={khanyisa1} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={khanyisa1} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
                 
             </Row>
@@ -137,7 +124,7 @@ const OurEvents = () => {
         </h1>
             <Row style={{paddingTop:'4em'}}>
             <Col sm={4}>
-                    <img src={bye6} style={{maxWidth:"100%",minHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
+                    <img src={bye6} alt="First slide" style={{maxWidth:"100%",minHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
                 </Col>
                 <Col sm={4}style={{textAlign:'center', borderStyle:"double", borderColor:"#554348"}}>
                     <h1 style={{marginLeft:'0.6em', color:'#554348', fontWeight:'bolder', fontSize:'32'}}>
@@ -151,22 +138,22 @@ const OurEvents = () => {
                     
                 </Col>
                 <Col sm={4}>
-                    <img src={bye2} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
+                    <img src={bye2} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', marginRight:'3em'}}/>
                 </Col>
                 
                 
             </Row>
             <Row style={{marginTop:"2em",paddingBottom:'5em'}}>
             <Col sm={4}>
-                    <img src={bye3} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={bye3} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
                 
             
                 <Col sm={4}>
-                    <img src={bye5} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={bye5} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
                 <Col sm={4}>
-                    <img src={bye1} style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
+                    <img src={bye1} alt="First slide" style={{maxWidth:"100%",minWidth:"100%",minHeight:"390px",maxHeight:"390px",objectFit:'cover', objectPosition: '100% 0', marginRight:'3em'}}/>
                 </Col>
                 
             </Row>

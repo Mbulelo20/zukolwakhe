@@ -1,7 +1,4 @@
 import React, { Fragment } from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Background from '.././Images/zklworshipbb.jpg'
 import corner from '../Images/zkl.png'
 import Carousel from 'react-bootstrap/Carousel';
@@ -16,7 +13,7 @@ const Home = () => {
         <div style={{position: 'relative', color: 'white'}}>
             <Carousel fade interval={2000} >
                 <Carousel.Item>
-                    <img src={corner} style={{width: '100%'}}/>
+                    <img src={corner} alt="First slide" style={{width: '100%'}}/>
                     <div  className="homeText">
                         <h1 style={{fontSize: '5vw', color: 'white', textShadow: '2px 2px black'}}>Zukolwakhe Church</h1>
                         <h4 style={{textAlign: 'center', fontSize: '1.5vw', color: 'white', textShadow: '2px 2px black'}}>Welcome. Wamkelekile. Welkom.</h4>
@@ -27,7 +24,7 @@ const Home = () => {
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Background} style={{width: '100%',objectFit:'cover',}}/>
+                    <img src={Background} alt="First slide" style={{width: '100%',objectFit:'cover',}}/>
                     <div  className="homeText">
                         <h1 style={{fontSize: '5vw', color: 'white', textShadow: '2px 2px black'}}>Zukolwakhe Church</h1>
                         <h4 style={{textAlign: 'center', fontSize: '1.5vw', color: 'white', textShadow: '2px 2px black'}}>Grace To You</h4>
